@@ -9,7 +9,8 @@ module.exports = {
   },
   plugins: ["prettier"],
   rules: {
-    radix: 0,
+    "consistent-return": 0,
+    "radix": 0,
     "no-nested-ternary": 0,
     "prettier/prettier": "error",
     "jsx-a11y/img-has-alt": 0,
